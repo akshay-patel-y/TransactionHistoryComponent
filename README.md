@@ -1,21 +1,22 @@
 # TransactionHistoryComponent
 The "TransactionHistoryComponent" is a React component that fetches and displays the transaction history of a given Ethereum address. It uses the Alchemy SDK to fetch the transaction data and renders it in a paginated list. Users can click on a transaction to view more details in a modal.
 
-Here's how the code works:
+Step 1: Create files
 
-The component fetches transaction history using the Alchemy SDK in the useEffect hook.
+Create a new folder named "components" and inside it, create the following files:
 
-It uses state variables to manage the fetched data, loading state, current page, and selected transaction.
+In /components/TransactionHistoryComponent.jsx
 
-Transactions are displayed in a paginated list, and users can click on a transaction to view more details in a modal.
+In /styles create TransactionHistory.module.css
 
-The pagination buttons allow users to navigate through the transaction history.
+In /pages/api create getTransactionHistory.js
 
-The TransactionModal component displays detailed information about a selected transaction.
+Step 2: Install and setup
 
-Overall, the "TransactionHistoryComponent" provides a simple and user-friendly way to view and explore the transaction history of an Ethereum address.
+Copy the corresponding code below into each of the created files above.
 
+Step 3: Implement
 
-
+Import the TransactionHistoryComponent at the top of a page or component:
 
 
